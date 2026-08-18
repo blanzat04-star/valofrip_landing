@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valofrip — Révélateur de valeur textile</title>
+    <!-- Importation de la police Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        valonavy: '#1B365D',
+                        valoteal: '#3B7A87',
+                        valosage: '#74A782',
+                        valogreen: '#A3C278',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased font-sans">
+
+    <!-- En-tête -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-4 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center space-x-3">
+                <img src="Logo.png" alt="Logo Valofrip Icone" class="h-12 w-auto object-contain">
+                <img src="Logo_texte.png" alt="Valofrip" class="h-8 w-auto object-contain">
+            </a>
+            
+            <nav class="hidden md:flex space-x-8 font-medium text-sm text-slate-600">
+                <a href="#vision" class="hover:text-valoteal transition">Vision</a>
+                <a href="#solutions" class="hover:text-valoteal transition">Solutions</a>
+                <a href="#contact" class="hover:text-valoteal transition">Contact</a>
+            </nav>
+            <a href="#contact" class="bg-valonavy hover:bg-valoteal text-white px-5 py-2.5 rounded-lg text-sm font-semibold transition shadow-sm">Prendre contact</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-20 md:py-28 bg-gradient-to-b from-slate-100 via-slate-50 to-white relative overflow-hidden">
+        <div class="max-w-4xl mx-auto px-4 text-center relative z-10">
+            <span class="inline-block bg-valosage/15 border border-valosage/30 text-valonavy px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider mb-6">
+                Économie circulaire &amp; Tri haute précision
+            </span>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6 text-valonavy leading-tight">
+                Chaque vêtement est une ressource. <br>
+                <span class="bg-gradient-to-r from-valoteal via-valosage to-valogreen bg-clip-text text-transparent">
+                    Valofrip la révèle.
+                </span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-600 mb-8 max-w-2xl mx-auto leading-relaxed">
+                En seconde main comme en recyclage, la valeur est là. Nous industrialisons et rationalisons le tri textile pour maximiser le réemploi local et alimenter la filière de demain.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#contact" class="bg-valonavy hover:bg-valoteal text-white px-8 py-3.5 rounded-lg font-semibold shadow-md transition">Valoriser vos gisements</a>
+                <a href="#solutions" class="bg-white border border-valosage/40 hover:border-valosage text-slate-700 px-8 py-3.5 rounded-lg font-semibold transition">Découvrir l'innovation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision & Mission -->
+    <section id="vision" class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="text-valoteal font-bold uppercase text-xs tracking-wider">Notre engagement</span>
+                <h2 class="text-3xl font-extrabold text-valonavy mt-2 mb-4">Redynamiser la filière par la technologie</h2>
+                <p class="text-slate-600 mb-4 leading-relaxed">
+                    Face à l'engorgement des filières traditionnelles et à la baisse de valeur de l’export, nous proposons une alternative locale, automatisée et performante.
+                </p>
+                <p class="text-slate-700 leading-relaxed font-medium border-l-4 border-valosage pl-4 my-4 italic">
+                    « Nous faisons du vêtement une vraie ressource en le valorisant au maximum selon ses caractéristiques, au plus près des territoires. »
+                </p>
+            </div>
+            <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 shadow-sm space-y-5">
+                <div class="flex items-start space-x-4">
+                    <div class="w-8 h-8 rounded-full bg-valogreen/20 text-valosage flex items-center justify-center font-bold text-lg shrink-0">✓</div>
+                    <div>
+                        <h4 class="font-bold text-valonavy">Tri automatisé &amp; Qualité constante</h4>
+                        <p class="text-sm text-slate-600">Jusqu'à 400 critères d'écrémage et de caractérisation instantanée par IA.</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <div class="w-8 h-8 rounded-full bg-valosage/20 text-valoteal flex items-center justify-center font-bold text-lg shrink-0">✓</div>
+                    <div>
+                        <h4 class="font-bold text-valonavy">Boucle locale &amp; Zéro export inutile</h4>
+                        <p class="text-sm text-slate-600">Revalorisation en circuit court pour limiter l'empreinte carbone.</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <div class="w-8 h-8 rounded-full bg-valonavy/10 text-valonavy flex items-center justify-center font-bold text-lg shrink-0">✓</div>
+                    <div>
+                        <h4 class="font-bold text-valonavy">Filière recyclage "Fibre à Fibre"</h4>
+                        <p class="text-sm text-slate-600">Préparation haute précision par matière, couleur et maille via scanner optique.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions / Savoir-faire -->
+    <section id="solutions" class="py-20 bg-slate-50 border-t border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16 max-w-2xl mx-auto">
+                <h2 class="text-3xl font-extrabold text-valonavy">Une réponse ciblée pour chaque acteur</h2>
+                <p class="text-slate-600 mt-2">Une technologie de tri industrielle au service du réemploi et du recyclage.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white p-8 rounded-2xl border border-slate-200 hover:border-valosage transition shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-valosage text-white rounded-xl flex items-center justify-center font-extrabold text-lg mb-6">01</div>
+                        <h3 class="text-xl font-bold text-valonavy mb-3">Collecteurs &amp; Associations</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            Fluidification des flux sortants, extraction de la crème réemployable et valorisation optimale de vos gisements.
+                        </p>
+                    </div>
+                    <span class="text-xs font-semibold text-valosage uppercase tracking-wider">Service sur-mesure</span>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white p-8 rounded-2xl border border-slate-200 hover:border-valoteal transition shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-valoteal text-white rounded-xl flex items-center justify-center font-extrabold text-lg mb-6">02</div>
+                        <h3 class="text-xl font-bold text-valonavy mb-3">Seconde main &amp; Friperies</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            Sourcing numérisé et sélection ultra-fine selon votre cahier des charges avec garantie de qualité.
+                        </p>
+                    </div>
+                    <span class="text-xs font-semibold text-valoteal uppercase tracking-wider">Demi-gros &amp; Digital</span>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white p-8 rounded-2xl border border-slate-200 hover:border-valonavy transition shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-valonavy text-white rounded-xl flex items-center justify-center font-extrabold text-lg mb-6">03</div>
+                        <h3 class="text-xl font-bold text-valonavy mb-3">Recycleurs Industriels</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            Massification et tri par composition exacte des fibres (NIR) pour alimenter les nouvelles filières textiles.
+                        </p>
+                    </div>
+                    <span class="text-xs font-semibold text-valonavy uppercase tracking-wider">Matières qualifiées</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Zone de Contact -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-extrabold text-valonavy">Construisons une filière vertueuse</h2>
+                <p class="text-slate-600 mt-2">Vous avez un gisement à valoriser ou souhaitez en savoir plus sur nos lots triés ?</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8 items-start">
+                <div class="space-y-6 bg-slate-50 p-6 rounded-xl border border-slate-200">
+                    <div>
+                        <h4 class="font-bold text-valonavy text-xs uppercase tracking-wider mb-1">E-mail</h4>
+                        <a href="mailto:contact@valofrip.fr" class="text-valoteal font-medium hover:underline transition text-sm">contact@valofrip.fr</a>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-valonavy text-xs uppercase tracking-wider mb-1">Implantation</h4>
+                        <p class="text-slate-700 text-sm">Région Auvergne-Rhône-Alpes</p>
+                    </div>
+                </div>
+                
+                <form action="https://api.web3forms.com/submit" method="POST" class="md:col-span-2 space-y-4">
+                    <input type="hidden" name="access_key" value="VOTRE_CLE_WEB3FORMS_ICI">
+                    <input type="hidden" name="subject" value="Nouveau contact depuis valofrip.fr">
+                    
+                    <div class="grid sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-medium text-slate-700 mb-1">Nom / Prénom</label>
+                            <input type="text" name="name" required class="w-full px-3.5 py-2.5 border border-slate-300 rounded-lg focus:ring-2 focus:ring-valoteal focus:border-valoteal outline-none transition">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-slate-700 mb-1">Entreprise / Structure</label>
+                            <input type="text" name="company" class="w-full px-3.5 py-2.5 border border-slate-300 rounded-lg focus:ring-2 focus:ring-valoteal focus:border-valoteal outline-none transition">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-slate-700 mb-1">E-mail professionnel</label>
+                        <input type="email" name="email" required class="w-full px-3.5 py-2.5 border border-slate-300 rounded-lg focus:ring-2 focus:ring-valoteal focus:border-valoteal outline-none transition">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-slate-700 mb-1">Message</label>
+                        <textarea name="message" rows="4" required class="w-full px-3.5 py-2.5 border border-slate-300 rounded-lg focus:ring-2 focus:ring-valoteal focus:border-valoteal outline-none transition"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-valonavy hover:bg-valoteal text-white font-semibold py-3.5 rounded-lg transition shadow-md">Envoyer le message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer class="bg-slate-900 text-slate-400 py-8 border-t border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center text-sm gap-4">
+            <p>© 2026 VALOFRIP SAS (en formation). Tous droits réservés.</p>
+            <div class="flex space-x-6">
+                <a href="mailto:contact@valofrip.fr" class="hover:text-white transition">contact@valofrip.fr</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
